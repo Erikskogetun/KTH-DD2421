@@ -1,6 +1,5 @@
 ﻿# KTH-DD2421
 
-
 # Lab 2
 The objective of this lab assignment is that you should get hands-on experience with implementing and using a Support Vector Machine. In particular, you should be able to:
 
@@ -16,11 +15,7 @@ The objective of this lab assignment is that you should get hands-on experience 
 
 Generic dataset:
 
-<<<<<<< HEAD
 ![Figure_1](lab2final/imgs/LinearPlotGeneric-1.png)
-=======
-![Figure_1](lab2/imgs/LinearPlotGeneric-1.png)
->>>>>>> 9eed81b27c7289a2a206e86808400ac329c47f4e
 
 Increasing the “spread”-factor to above 0.3, will result in the optimizer not being able to find a solution without slack. This is because the data cannot be separated with a straight line. This is the result when set to 0,3:
 
@@ -28,12 +23,7 @@ Increasing the “spread”-factor to above 0.3, will result in the optimizer no
 
 Moving one of the clusters up gave the following results:
 
-<<<<<<< HEAD
 ![Figure_3](lab2final/imgs/LinearPlotMovedCluster-1.png)
-=======
-![Figure_3](lab2/imgs/LinearPlotMovedCluster-1.png)
->>>>>>> 9eed81b27c7289a2a206e86808400ac329c47f4e
-
 
 ### Implement the two non-linear kernels. You should be able to classify very hard data sets with these.
 
@@ -41,19 +31,11 @@ The following is a polynomial kernel with increasing p-value on the generic data
 
 GIF:
 
-<<<<<<< HEAD
 ![Figure_4](lab2final/imgs/PValueGif.gif)
 
 The following is an RBF-Kernel with increasing sigma-value on the generic dataset.
 
 ![Figure_5](lab2final/imgs/RBFGif.gif)
-=======
-![Figure_4](lab2/imgs/PValueGif.gif)
-
-The following is an RBF-Kernel with increasing sigma-value on the generic dataset.
-
-![Figure_5](lab2/imgs/RBFGif.gif)
->>>>>>> 9eed81b27c7289a2a206e86808400ac329c47f4e
 
 ### The non-linear kernels have parameters; explore how they influence the decision boundary. Reason about this in terms of the bias variance trade-off.
 
@@ -72,3 +54,54 @@ The slack parameter represents a tolerance/’slack’ for data points which are
 In low-dimension data this can be done visually. If the data points look like they should be separated by a line, but there are some outliers, it is probably more relevant to use a linear (less complex) kernel and allow for more slack. However, the more complex distribution of data points, the more relevant it is to use a more complex model. In other words, slack is mostly useful in the case of a small number of outliers which prevents the use of an otherwise well-suited model.
 
 You should also try to keep the proportion of support vectors low, as a high number will tend to over-train the model. Slack can help with this.
+
+
+# Lab 3
+
+## Assignment 3
+
+
+The following is the datapoints including blobs:
+![Figure_7](lab2/imgs/plotgaussian.png)
+
+The following is the plot boundary:
+![Figure_6](lab3/imgs/plotboundary.png)
+
+### Iris dataset
+Trial | Accuracy
+--- | ---
+0 | 84.4
+10 | 86.7
+20 | 88.9
+30 | 86.7
+40 | 86.7
+50 | 91.1
+60 | 88.9
+70 | 93.3
+80 | 86.7
+90 | 88.9
+*Final mean classification accuracy: 88.1*
+*Standard deviation: 4.14*
+
+### Vowel dataset
+Trial | Accuracy
+--- | ---
+0 | 58.4
+10 | 66.9
+20 | 67.5
+30 | 57.8
+40 | 63.6
+50 | 63
+60 | 64.9
+70 | 62.3
+80 | 59.1
+90 | 70.1
+*Final mean classification accuracy: 62.6*
+*Standard deviation: 3.54*
+
+1) When can a feature independence assumption be reasonable and when not?
+
+
+2) How does the decision boundary look for the Iris dataset? How could one improve the classication results for this scenario by changing classier or, alternatively, manipulating the data?
+
+

@@ -58,3 +58,50 @@ You should also try to keep the proportion of support vectors low, as a high num
 
 # Lab 3
 
+## Assignment 3
+
+
+The following is the datapoints including blobs:
+![Figure_7](lab2/imgs/plotgaussian.png)
+
+The following is the plot boundary:
+![Figure_6](lab3/imgs/plotboundary.png)
+
+### Iris dataset
+Trial | Accuracy
+--- | ---
+0 | 84.4
+10 | 86.7
+20 | 88.9
+30 | 86.7
+40 | 86.7
+50 | 91.1
+60 | 88.9
+70 | 93.3
+80 | 86.7
+90 | 88.9
+*Final mean classification accuracy: 88.1*
+*Standard deviation: 4.14*
+
+### Vowel dataset
+Trial | Accuracy
+--- | ---
+0 | 58.4
+10 | 66.9
+20 | 67.5
+30 | 57.8
+40 | 63.6
+50 | 63
+60 | 64.9
+70 | 62.3
+80 | 59.1
+90 | 70.1
+*Final mean classification accuracy: 62.6*
+*Standard deviation: 3.54*
+
+1) When can a feature independence assumption be reasonable and when not?
+
+
+2) How does the decision boundary look for the Iris dataset? How could one improve the classication results for this scenario by changing classier or, alternatively, manipulating the data?
+
+

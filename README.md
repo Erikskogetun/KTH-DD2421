@@ -62,10 +62,10 @@ You should also try to keep the proportion of support vectors low, as a high num
 
 
 The following is the datapoints including blobs:
-![Figure_7](lab2/imgs/plotgaussian.png)
+![Figure_6](lab3/imgs/plotgaussian.png)
 
 The following is the plot boundary:
-![Figure_6](lab3/imgs/plotboundary.png)
+![Figure_7](lab3/imgs/plotboundary.png)
 
 ### Iris dataset
 Trial | Accuracy
@@ -80,6 +80,7 @@ Trial | Accuracy
 70 | 93.3
 80 | 86.7
 90 | 88.9
+
 *Final mean classification accuracy: 88.1*
 *Standard deviation: 4.14*
 
@@ -96,6 +97,7 @@ Trial | Accuracy
 70 | 62.3
 80 | 59.1
 90 | 70.1
+
 *Final mean classification accuracy: 62.6*
 *Standard deviation: 3.54*
 

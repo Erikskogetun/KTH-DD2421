@@ -1,6 +1,5 @@
 ﻿# KTH-DD2421
 
-
 # Lab 2
 The objective of this lab assignment is that you should get hands-on experience with implementing and using a Support Vector Machine. In particular, you should be able to:
 
@@ -55,3 +54,7 @@ The slack parameter represents a tolerance/’slack’ for data points which are
 In low-dimension data this can be done visually. If the data points look like they should be separated by a line, but there are some outliers, it is probably more relevant to use a linear (less complex) kernel and allow for more slack. However, the more complex distribution of data points, the more relevant it is to use a more complex model. In other words, slack is mostly useful in the case of a small number of outliers which prevents the use of an otherwise well-suited model.
 
 You should also try to keep the proportion of support vectors low, as a high number will tend to over-train the model. Slack can help with this.
+
+
+# Lab 3
+

@@ -16,7 +16,7 @@ The objective of this lab assignment is that you should get hands-on experience 
 
 Generic dataset:
 
-![Figure_1](imgs/LinearPlotGeneric-1.png)
+![Figure_1](lab2/imgs/LinearPlotGeneric-1.png)
 
 Increasing the “spread”-factor to above 0.3, will result in the optimizer not being able to find a solution without slack. This is because the data cannot be separated with a straight line. This is the result when set to 0,3:
 
@@ -24,7 +24,7 @@ Increasing the “spread”-factor to above 0.3, will result in the optimizer no
 
 Moving one of the clusters up gave the following results:
 
-![Figure_3](imgs/LinearPlotMovedCluster-1.png)
+![Figure_3](lab2/imgs/LinearPlotMovedCluster-1.png)
 
 
 ### Implement the two non-linear kernels. You should be able to classify very hard data sets with these.
@@ -33,11 +33,11 @@ The following is a polynomial kernel with increasing p-value on the generic data
 
 GIF:
 
-![Figure_4](imgs/PValueGif.gif)
+![Figure_4](lab2/imgs/PValueGif.gif)
 
 The following is an RBF-Kernel with increasing sigma-value on the generic dataset.
 
-![Figure_5](imgs/RBFGif.gif)
+![Figure_5](lab2/imgs/RBFGif.gif)
 
 ### The non-linear kernels have parameters; explore how they influence the decision boundary. Reason about this in terms of the bias variance trade-off.
 

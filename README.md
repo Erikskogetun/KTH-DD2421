@@ -82,6 +82,7 @@ Trial | Accuracy
 90 | 88.9
 
 *Final mean classification accuracy: 88.1*
+
 *Standard deviation: 4.14*
 
 ### Vowel dataset
@@ -99,6 +100,7 @@ Trial | Accuracy
 90 | 70.1
 
 *Final mean classification accuracy: 62.6*
+
 *Standard deviation: 3.54*
 
 1) When can a feature independence assumption be reasonable and when not?

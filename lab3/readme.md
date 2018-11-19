@@ -77,10 +77,20 @@ There are two boundaries which divide the three classes. The classes 0 and 1 are
 ## Assignment 4
 
 ```python
-[1] Nk = len(idx)
-[2] xlc = X[idx,:]*W[idx,:] #get row vectors
-[3] mu[jdx] += np.sum(xlc, axis=0) / weightsum
+[1] weightsum = sum(W[idx,:])
+[2] featuresWeighed = X[idx,:]*W[idx,:] #get row vectors
+[3] mu[jdx] += np.sum(featuresWeighed, axis=0) / weightsum
 ```
 
-[2]
+[2] We take each datapoint's features and multiply them with the weight for the datapoint.
+
+[3] We look at each dimension one at a time. And for each dimension, we add up all the featuresWeighed i.e. N number of datapoints for that dimension and dataset.
+
+
+
+## Assignment 5
+
+
+
+
 

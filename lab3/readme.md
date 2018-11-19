@@ -90,7 +90,39 @@ There are two boundaries which divide the three classes. The classes 0 and 1 are
 
 ## Assignment 5
 
+```python
+testClassifier(BoostClassifier(BayesClassifier(), T=10), dataset='iris',split=0.7)
 
+   Trial: 0 Accuracy 100
+   Trial: 10 Accuracy 97.8
+   Trial: 20 Accuracy 93.3
+   Trial: 30 Accuracy 93.3
+   Trial: 40 Accuracy 97.8
+   Trial: 50 Accuracy 86.7
+   Trial: 60 Accuracy 93.3
+   Trial: 70 Accuracy 95.6
+   Trial: 80 Accuracy 93.3
+   Trial: 90 Accuracy 95.6
+  
+Final mean classification accuracy  94.2 with standard deviation 6.83
+```
 
+```python
+testClassifier(BoostClassifier(BayesClassifier(), T=10), dataset='vowel',split=0.7)
 
+    Trial: 0 Accuracy 68.8
+    Trial: 10 Accuracy 77.9
+    Trial: 20 Accuracy 77.3
+    Trial: 30 Accuracy 70.1
+    Trial: 40 Accuracy 68.8
+    Trial: 50 Accuracy 68.2
+    Trial: 60 Accuracy 77.3
+    Trial: 70 Accuracy 70.8
+    Trial: 80 Accuracy 71.4
+    Trial: 90 Accuracy 82.5
+	
+Final mean classification accuracy  74.1 with standard deviation 3.73
+```
+
+![a4_1](imgs/a4_1.png)
 

@@ -1,4 +1,20 @@
-### Readme
+# LAB 3
+
+
+
+## Assignment 1
+
+Firstly, we use the provided function genBlobs(), to plot the the Gaussian distributed datapoints, together with their class labels, providing a number of centers as parameters. Then we add the ML estimates, and plot it all together with the function plotGaussian().
+
+![a1_1](imgs/a1_1.png)
+
+*Figure 1.1 - centers = 5*
+
+
+
+## Assignment 2
+
+
 
 ## Assignment 3
 
@@ -6,11 +22,11 @@
 
 The following is the datapoints including blobs:
 
-![Figure_6](lab3/imgs/plotgaussian.png)
+![Figure_6](imgs/plotgaussian.png)
 
 The following is the plot boundary:
 
-![Figure_7](lab3/imgs/plotboundary.png)
+![Figure_7](imgs/plotboundary.png)
 
 Trial | Accuracy
 --- | ---
@@ -50,4 +66,8 @@ In general, it is often not realistic to think features are independent, but it 
 
 2) **How does the decision boundary look for the Iris dataset? How could one improve the classication results for this scenario by changing classifier or, alternatively, manipulating the data?**
 There are two boundaries which divide the three classes. The classes 0 and 1 are divided successfully, but the classes 1 and 2 are divided using a quite unintuitive curve. By looking at the datapoints, it should rather be divided with a straight line leaning up-right.A low-complexity SVM with some slack would probably be a good alternative of a classifier.
+
+
+
+## Assignment 4
 

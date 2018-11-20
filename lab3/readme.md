@@ -126,3 +126,23 @@ Final mean classification accuracy  74.1 with standard deviation 3.73
 
 ![a4_1](imgs/a4_1.png)
 
+1) Is there any improvement in classication accuracy? Why/why not?
+
+ &nbsp;| Iris | Vowel
+--- | --- | ---
+**Previously** | 89,2 |  61,3
+**Now** | 94,2 | 74,1
+**Difference** | 5 | 12,8
+
+This means both datasets have had quite significant improvements. This is due to the weights being adapted in order to represent their importance for the classification.
+
+2) Plot the decision boundary of the boosted classier on iris and compare it with
+that of the basic. What differences do you notice? Is the boundary of the boosted
+version more complex?
+
+The boundaries seem less complex, almost linear. The boundary between class 1 and 2 especially has become less complex, which in this case divides the classes more successfully. However, in theory, adaboost should increase complexity by focusing on missclassified points, rather than all the same.
+
+3) Can we make up for not using a more advanced model in the basic classier
+(e.g. independent features) by using boosting?
+
+Yes, boosting will act as a more complex model. However, boosting can also reduce both bias and variance, but can tend to overfit if overused.

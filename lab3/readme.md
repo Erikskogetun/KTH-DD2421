@@ -146,3 +146,53 @@ The boundaries seem less complex, almost linear. The boundary between class 1 an
 (e.g. independent features) by using boosting?
 
 Yes, boosting will act as a more complex model. However, boosting can also reduce both bias and variance, but can tend to overfit if overused.
+
+
+
+#Assignment 7 - Which Classifier?
+
+**If you had to pick a classifier, naive Bayes or a decision tree or the boosted versions of these, which one would you pick? Motivate from the following criteria:** 
+
+
+
+- **Outliers:**
+
+- - NB, no boosting
+  - Boosted classifiers will give higher weights to outliers, in order to focus on them in the learning process, to minimize the error rate => risk of assigning too much weight to outliers
+  - Boosted DT performed better than boosted NB, between those would choose DT
+  - Risk with DT is the tendency to overfit
+
+
+
+- **Irrelevant output:**
+
+- - DT
+  - In decision trees, the pruning process gets rid of most irrelevant input => should be preferred choice
+  - Decision trees - could be built upon information gain => order different questions in terms of how much information they give
+  - Thus, features that are irrelevant will be placed further down in the tree structure => affecting the results less
+  - Boosting only affects the weights for the datapoints
+
+
+
+- **Predictive power:**
+
+- - NB, boosting
+  - The accuracy score acquired for the boosted vs. non-boosted classifiers, indicated that boosted classifiers performed better
+  - Decision trees also had higher accuracy measure than Naive Bayes.
+
+
+
+- **Mixed types of data (ex. binary, categorial or continuous features):**
+
+- - NB can handle continuous data input slightly better than decision trees 
+  - However, both NB and DT can handle a mix of data of continuous and categorial nature
+
+
+
+- **Scalability:** 
+
+- - DT
+  - When dimension of data and/or number of instances is large
+  - “Curse of dimensionality” - one way to deal with it is to assume all features and independent of one another - Naive Bayes assumption
+  - Matrices are difficult to calculate as they grow in size, same with huge trees
+  - However, trees seem a bit more effective for larger datasets

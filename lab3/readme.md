@@ -149,7 +149,7 @@ Yes, boosting will act as a more complex model. However, boosting can also reduc
 
 
 
-#Assignment 7 - Which Classifier?
+## Assignment 7 - Which Classifier?
 
 **If you had to pick a classifier, naive Bayes or a decision tree or the boosted versions of these, which one would you pick? Motivate from the following criteria:** 
 
